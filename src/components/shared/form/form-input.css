@@ -1,0 +1,11 @@
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control:is(:valid, :invalid) {
+  box-shadow: none !important;
+}
+.form-control:valid {
+  background-image: none !important;
+  border-color: rgb(206, 212, 218) !important;
+}
